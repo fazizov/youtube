@@ -1,0 +1,207 @@
+//Exploring Basic KQL commands:
+VehicleTraffic
+| take 100
+
+//Project, Extend, Parse, Parse-kv
+VehicleTraffic
+| project  EntryTime, CarModel, State, Tag,TollId=toint(TollId)
+| take 100
+
+
+
+VehicleTraffic
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:dynamic)
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount,  VehicleType, VehicleWeight
+| extend ingestionTime=ingestion_time()
+| take 100
+
+
+//Where, Order by
+ VehicleTraffic
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:dynamic)
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount, TollId=toint(TollId), VehicleType, VehicleWeight
+| where isnotnull(LicensePlate) and  isnotempty(LicensePlate)
+| order by EntryTime
+
+//Aggregate
+VehicleTraffic
+|summarize sum(TollAmount) by TollId
+
+//Joins
+VehicleTraffic
+|join DimVehicles on $left.LicensePlate==$right.LicensePlate
+
+//Table management Commands
+.create table test (C1:int,C2: string);
+
+.drop table test;
+
+.set-or-append test <|
+VehicleTraffic
+| take 100
+
+test
+
+.append test <|
+VehicleTraffic
+| take 100
+
+// Let operators
+let vtCleansed = ()
+{VehicleTraffic| where isnotnull(LicensePlate)
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:dynamic)
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount, TollId, VehicleType, VehicleWeight}; 
+vtCleansed
+|take 100 
+
+.create function fn_test ()
+{
+VehicleTraffic| where isnotnull(LicensePlate)
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:dynamic)
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount, TollId, VehicleType, VehicleWeight
+}
+
+fn_test ()
+
+
+.create async  materialized-view  with (backfill=true) mv_vt_test3 on  table VehicleTraffic 
+{
+VehicleTraffic
+| where isnotnull(LicensePlate)
+|summarize sum(TollAmount) by TollId
+};
+
+mv_vt_test
+
+
+.create async materialized-view  with (backfill=true) mvw_test on table VehicleTraffic 
+{
+VehicleTraffic
+|summarize TotalTollAmount=sum(TollAmount) 
+by State,TollId,EntryMonth=monthofyear(EntryTime),EntryDay=dayofmonth(EntryTime),EntryHour=hourofday(EntryTime)
+}
+
+//Building end-to end streaming pipelines
+//Eliminate null values, extract fields
+//Sample transformations
+VehicleTraffic
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:dynamic)
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount, TollId, VehicleType, VehicleWeight
+| extend ingestionTime=ingestion_time()
+| where isnotnull(LicensePlate)
+
+
+//Creating functions
+.drop function fn_cleansedTraffic;
+
+.create-or-alter function fn_cleansedTraffic()
+{
+VehicleTraffic
+| where isnotempty(LicensePlate) 
+| parse-kv  CarModel as (Make:string,Model:string,VehicleType:int,VehicleWeight:real)
+| extend ingestionTime=ingestion_time()
+| summarize arg_max(EntryTime,*) by LicensePlate, Make, Model, State, Tag, TollAmount, TollId, VehicleType, VehicleWeight
+| project  EntryTime, EventEnqueuedUtcTime, LicensePlate, Make, Model, State, Tag, TollAmount, TollId, VehicleType, VehicleWeight,ingestionTime
+}
+
+fn_cleansedTraffic()
+
+.drop table VehicleTrafficCleansed ;
+
+.create table VehicleTrafficCleansed  
+(EntryTime:datetime, EventEnqueuedUtcTime:datetime, LicensePlate:string , Make:string , Model:string , State:string , 
+Tag:int, TollAmount:int,  TollId:int , VehicleType:int, VehicleWeight:real,ingestionTime:datetime)
+
+//Create table update policy
+.alter table VehicleTrafficCleansed policy update 
+@'[{ "IsEnabled": true, "Source": "VehicleTraffic", "Query": "fn_cleansedTraffic()", "IsTransactional": false, "PropagateIngestionProperties": false}]'
+
+VehicleTrafficCleansed
+
+.drop table DimVehicles; 
+
+.create  table DimVehicles 
+ (LicensePlate:string ,VehicleType:int ,Make:string ,Model:string,ingestionTime:datetime);
+
+.create-or-alter function fn_dimVehicles()
+{
+VehicleTrafficCleansed
+|project LicensePlate,VehicleType,Make,Model,ingestionTime
+|join kind=leftanti DimVehicles on LicensePlate
+|sort by 'ingestionTime' asc
+} 
+
+.alter table DimVehicles policy update 
+@'[{ "IsEnabled": true, "Source": "VehicleTrafficCleansed", "Query": "fn_dimVehicles()", "IsTransactional": false, "PropagateIngestionProperties": false}]'
+
+.drop table FactTraffic;
+
+.create  table FactTraffic
+ (EntryTime:datetime, EventEnqueuedUtcTime:datetime, LicensePlate:string ,State:string , 
+Tag:int, TollAmount:int,  TollId:int , VehicleWeight:real,ingestionTime:datetime);
+
+.create-or-alter function fn_factTraffic()
+{
+VehicleTrafficCleansed
+|project EntryTime, EventEnqueuedUtcTime, LicensePlate ,State , 
+Tag, TollAmount,  TollId , VehicleWeight,ingestionTime
+|sort by 'ingestionTime' asc
+} 
+
+.alter table FactTraffic policy update 
+@'[{ "IsEnabled": true, "Source": "VehicleTrafficCleansed", "Query": "fn_factTraffic()", "IsTransactional": false, "PropagateIngestionProperties": false}]'
+
+//Examining data
+VehicleTrafficCleansed
+|sort by LicensePlate
+|take 100
+
+FactTraffic
+| take 100 2
+
+DimVehicles
+|sort by LicensePlate
+| take 100
+
+
+//Troubleshooting ingestion failures
+.show ingestion failures
+|order by FailedOn desc 
+
+
+.drop materialized-view  mvw_hourlyTraffic;
+
+.create async materialized-view  with (backfill=true) mvw_hourlyTraffic on table FactTraffic 
+{
+FactTraffic
+|summarize TotalTollAmount=sum(TollAmount) 
+by State,TollId,EntryMonth=monthofyear(EntryTime),EntryDay=dayofmonth(EntryTime),EntryHour=hourofday(EntryTime)
+}
+
+
+mvw_hourlyTraffic
+|take 100
+
+mvw_hourlyTraffic
+|top 5 by TotalTollAmount
+|render barchart  by State
+
+
+
+//Cleaning tables
+.clear table DimVehicles data;
+.clear table FactTraffic data
+
+
+
+.alter table DimVehicles policy  streamingingestion  disable 
+
+.alter table ['01c02d84-f486-4bb1-9297-0eab472c30df'] policy streamingingestion disable
+
+.show table DimVehicles policy streamingingestion;
+
+.delete table DimVehicles policy streamingingestion
+
+.show database MyFirstKQL policy streamingingestion 
+
+.delete database MyFirstKQL policy streamingingestion
