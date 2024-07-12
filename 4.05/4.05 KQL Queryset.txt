@@ -1,0 +1,33 @@
+CustomersRaw
+| take 100
+
+CustomersRaw
+|project postUpdateJson=parse_json(payload.after),ts_ms=unixtime_milliseconds_todatetime(tolong(payload.ts_ms))
+|evaluate bag_unpack(postUpdateJson)
+|extend ModifiedDate = unixtime_milliseconds_todatetime(tolong(ModifiedDate))
+|order by CustomerID,ts_ms asc 
+
+
+//Deduplicate row versions
+CustomersRaw
+|project postUpdateJson=parse_json(payload.after),ts_ms=unixtime_milliseconds_todatetime(tolong(payload.ts_ms))
+|evaluate bag_unpack(postUpdateJson)
+|extend ModifiedDate = unixtime_milliseconds_todatetime(tolong(ModifiedDate))
+|summarize  arg_max(ts_ms,*) by CustomerID
+
+// .drop materialized-view  Customer_mv 
+.create materialized-view  with (backfill=true) Customer_mv on table CustomersRaw 
+{
+CustomersRaw
+|project postUpdateJson=parse_json(payload.after),ts_ms=unixtime_milliseconds_todatetime(tolong(payload.ts_ms))
+|evaluate bag_unpack(postUpdateJson)
+|extend ModifiedDate = unixtime_milliseconds_todatetime(tolong(ModifiedDate))
+|summarize  arg_max(ts_ms,*) by CustomerID
+}
+
+//Browse sample data
+Customer_mv
+|take 100 
+
+
+.
