@@ -1,0 +1,1001 @@
+product_name,sales_date,client_name,price,quantity,sales_amount
+Sofa,2024-02-11,ClientA,160,1,160
+Sofa,2024-02-11,ClientY,137,4,548
+Bed,2024-02-11,ClientX,167,5,835
+Chair,2024-02-11,,186,5,930
+Dinner table,2024-02-11,,137,4,548
+Bed,2024-02-11,,142,1,142
+Chair,2024-02-11,ClientA,113,4,452
+,,,,,
+Bed,2024-02-11,ClientX,73,2,146
+Bed,2024-02-11,ClientX,136,4,544
+,,,,,
+Dinner table,2024-02-11,ClientZ,59,3,177
+Sofa,2024-02-11,ClientB,118,5,590
+Sofa,2024-02-11,ClientA,56,2,112
+,2024-02-11,ClientZ,151,2,302
+,2024-02-11,ClientX,134,1,134
+Dinner table,2024-02-11,ClientB,62,1,62
+Sofa,2024-02-11,ClientX,105,5,
+Sofa,2024-02-11,ClientZ,169,5,
+Sofa,2024-02-11,ClientX,58,4,
+Sofa,2024-02-11,ClientB,73,1,73
+Dinner table,2024-02-11,ClientZ,184,4,736
+Chair,2024-02-11,ClientZ,149,3,447
+Bed,2024-02-11,ClientX,112,5,560
+Sofa,2024-02-11,ClientY,153,1,153
+Bed,2024-02-11,ClientX,103,3,309
+Bed,2024-02-11,ClientA,106,1,106
+Chair,2024-02-11,ClientY,73,4,292
+Sofa,2024-02-11,ClientX,99,4,396
+Chair,2024-02-11,ClientY,133,1,133
+Chair,2024-02-11,ClientA,183,5,915
+Sofa,2024-02-11,ClientB,114,5,570
+Sofa,2024-02-11,ClientB,151,5,755
+Chair,2024-02-11,ClientY,192,4,768
+Bed,2024-02-11,ClientZ,129,4,516
+Bed,2024-02-11,ClientX,179,1,179
+Sofa,2024-02-11,ClientA,139,4,556
+Bed,2024-02-11,ClientZ,53,2,106
+Dinner table,2024-02-11,ClientX,135,2,270
+Sofa,2024-02-11,ClientB,55,3,165
+Dinner table,2024-02-11,ClientB,51,3,153
+Bed,2024-02-11,ClientA,80,5,400
+Sofa,2024-02-11,ClientA,147,3,441
+Dinner table,2024-02-11,ClientX,193,2,386
+Chair,2024-02-11,ClientA,92,1,92
+Chair,2024-02-11,ClientY,100,2,200
+Dinner table,2024-02-11,ClientB,85,5,425
+Chair,2024-02-11,ClientA,135,5,675
+Chair,2024-02-11,ClientA,132,5,660
+Bed,2024-02-11,ClientB,122,4,488
+Sofa,2024-02-11,ClientB,154,2,308
+Sofa,2024-02-11,ClientZ,179,2,358
+Chair,2024-02-11,ClientB,198,2,396
+Bed,2024-02-11,ClientY,126,3,378
+Chair,2024-02-11,ClientX,166,4,664
+Sofa,2024-02-11,ClientX,188,4,752
+Sofa,2024-02-11,ClientB,86,5,430
+Sofa,2024-02-11,ClientB,97,3,291
+Chair,2024-02-11,ClientZ,59,4,236
+Dinner table,2024-02-11,ClientB,57,4,228
+Bed,2024-02-11,ClientZ,144,4,576
+Bed,2024-02-11,ClientB,173,4,692
+Dinner table,2024-02-11,ClientX,78,2,156
+Sofa,2024-02-11,ClientA,174,4,696
+Bed,2024-02-11,ClientY,72,4,288
+Dinner table,2024-02-11,ClientX,128,2,256
+Dinner table,2024-02-11,ClientY,143,4,572
+Sofa,2024-02-11,ClientX,198,4,792
+Dinner table,2024-02-11,ClientB,187,2,374
+Sofa,2024-02-11,ClientX,198,5,990
+Sofa,2024-02-11,ClientA,111,3,333
+Dinner table,2024-02-11,ClientB,200,5,1000
+Sofa,2024-02-11,ClientZ,142,3,426
+Chair,2024-02-11,ClientX,186,3,558
+Sofa,2024-02-11,ClientX,194,2,388
+Sofa,2024-02-11,ClientB,105,2,210
+Sofa,2024-02-11,ClientX,59,5,295
+Sofa,2024-02-11,ClientY,71,2,142
+Bed,2024-02-11,ClientA,191,4,764
+Dinner table,2024-02-11,ClientA,169,5,845
+Sofa,2024-02-11,ClientA,102,1,102
+Bed,2024-02-11,ClientY,185,1,185
+Sofa,2024-02-11,ClientY,103,1,103
+Bed,2024-02-11,ClientY,197,5,985
+Dinner table,2024-02-11,ClientY,85,2,170
+Dinner table,2024-02-11,ClientY,51,5,255
+Dinner table,2024-02-11,ClientA,98,1,98
+Chair,2024-02-11,ClientZ,91,2,182
+Dinner table,2024-02-11,ClientZ,180,1,180
+Sofa,2024-02-11,ClientX,67,3,201
+Chair,2024-02-11,ClientX,190,2,380
+Sofa,2024-02-11,ClientY,82,4,328
+Chair,2024-02-11,ClientA,80,1,80
+Chair,2024-02-11,ClientB,144,2,288
+Chair,2024-02-11,ClientA,175,5,875
+Bed,2024-02-11,ClientX,172,3,516
+Chair,2024-02-11,ClientB,151,2,302
+Sofa,2024-02-11,ClientY,136,2,272
+Chair,2024-02-11,ClientX,91,4,364
+Chair,2024-02-11,ClientZ,109,2,218
+Sofa,2024-02-11,ClientB,136,3,408
+Dinner table,2024-02-11,ClientY,104,1,104
+Sofa,2024-02-11,ClientA,110,3,330
+Bed,2024-02-11,ClientY,93,1,93
+Dinner table,2024-02-11,ClientZ,139,5,695
+Chair,2024-02-11,ClientY,94,3,282
+Bed,2024-02-11,ClientA,74,4,296
+Bed,2024-02-11,ClientX,183,5,915
+Chair,2024-02-11,ClientB,154,1,154
+Chair,2024-02-11,ClientX,181,1,181
+Chair,2024-02-11,ClientA,170,1,170
+Sofa,2024-02-11,ClientA,177,2,354
+Bed,2024-02-11,ClientX,140,1,140
+Bed,2024-02-11,ClientY,163,4,652
+Dinner table,2024-02-11,ClientB,150,5,750
+Chair,2024-02-11,ClientY,111,1,111
+Dinner table,2024-02-11,ClientB,58,5,290
+Sofa,2024-02-11,ClientZ,130,1,130
+Sofa,2024-02-11,ClientX,66,1,66
+Dinner table,2024-02-11,ClientA,122,4,488
+Dinner table,2024-02-11,ClientY,90,1,90
+Dinner table,2024-02-11,ClientY,180,5,900
+Dinner table,2024-02-11,ClientB,169,4,676
+Chair,2024-02-11,ClientY,54,2,108
+Chair,2024-02-11,ClientX,80,3,240
+Sofa,2024-02-11,ClientZ,148,2,296
+Dinner table,2024-02-11,ClientX,168,1,168
+Dinner table,2024-02-11,ClientA,132,4,528
+Chair,2024-02-11,ClientA,75,4,300
+Bed,2024-02-11,ClientY,175,4,700
+Dinner table,2024-02-11,ClientX,168,5,840
+Dinner table,2024-02-11,ClientA,131,1,131
+Chair,2024-02-11,ClientZ,139,2,278
+Bed,2024-02-11,ClientZ,149,4,596
+Sofa,2024-02-11,ClientA,150,4,600
+Sofa,2024-02-11,ClientZ,92,4,368
+Bed,2024-02-11,ClientA,105,3,315
+Sofa,2024-02-11,ClientZ,91,2,182
+Sofa,2024-02-11,ClientA,137,2,274
+Sofa,2024-02-11,ClientA,174,5,870
+Dinner table,2024-02-11,ClientA,178,5,890
+Dinner table,2024-02-11,ClientX,184,2,368
+Bed,2024-02-11,ClientA,148,1,148
+Bed,2024-02-11,ClientA,97,5,485
+Sofa,2024-02-11,ClientZ,79,5,395
+Chair,2024-02-11,ClientY,128,2,256
+Dinner table,2024-02-11,ClientB,157,1,157
+Sofa,2024-02-11,ClientB,90,5,450
+Chair,2024-02-11,ClientY,152,5,760
+Dinner table,2024-02-11,ClientZ,196,2,392
+Dinner table,2024-02-11,ClientX,52,1,52
+Bed,2024-02-11,ClientZ,130,3,390
+Chair,2024-02-11,ClientB,178,1,178
+Dinner table,2024-02-11,ClientB,60,2,120
+Dinner table,2024-02-11,ClientZ,78,2,156
+Dinner table,2024-02-11,ClientY,76,1,76
+Bed,2024-02-11,ClientX,117,3,351
+Dinner table,2024-02-11,ClientB,195,1,195
+Chair,2024-02-11,ClientA,59,5,295
+Dinner table,2024-02-11,ClientX,183,2,366
+Bed,2024-02-11,ClientY,189,5,945
+Sofa,2024-02-11,ClientB,62,3,186
+Sofa,2024-02-11,ClientX,196,4,784
+Sofa,2024-02-11,ClientB,136,4,544
+Dinner table,2024-02-11,ClientZ,121,2,242
+Dinner table,2024-02-11,ClientA,127,1,127
+Sofa,2024-02-11,ClientX,66,5,330
+Dinner table,2024-02-11,ClientZ,200,3,600
+Dinner table,2024-02-11,ClientB,172,3,516
+Sofa,2024-02-11,ClientY,138,5,690
+Sofa,2024-02-11,ClientY,122,3,366
+Sofa,2024-02-11,ClientZ,124,5,620
+Sofa,2024-02-11,ClientZ,93,3,279
+Bed,2024-02-11,ClientB,75,2,150
+Chair,2024-02-11,ClientX,107,4,428
+Chair,2024-02-11,ClientB,58,5,290
+Bed,2024-02-11,ClientY,199,5,995
+Chair,2024-02-11,ClientA,187,4,748
+Sofa,2024-02-11,ClientA,131,1,131
+Chair,2024-02-11,ClientY,177,1,177
+Dinner table,2024-02-11,ClientY,59,2,118
+Dinner table,2024-02-11,ClientY,54,2,108
+Dinner table,2024-02-11,ClientB,134,1,134
+Sofa,2024-02-11,ClientX,115,3,345
+Sofa,2024-02-11,ClientZ,78,1,78
+Chair,2024-02-11,ClientY,82,1,82
+Dinner table,2024-02-11,ClientX,50,1,50
+Bed,2024-02-11,ClientX,96,2,192
+Dinner table,2024-02-11,ClientX,120,4,480
+Sofa,2024-02-11,ClientB,126,1,126
+Bed,2024-02-11,ClientX,115,4,460
+Chair,2024-02-11,ClientZ,80,2,160
+Chair,2024-02-11,ClientA,119,2,238
+Bed,2024-02-11,ClientB,132,3,396
+Chair,2024-02-11,ClientY,174,2,348
+Bed,2024-02-11,ClientA,125,4,500
+Sofa,2024-02-11,ClientZ,106,5,530
+Chair,2024-02-11,ClientY,133,5,665
+Dinner table,2024-02-11,ClientZ,181,1,181
+Sofa,2024-02-11,ClientX,172,1,172
+Dinner table,2024-02-11,ClientB,61,2,122
+Dinner table,2024-02-11,ClientA,118,5,590
+Sofa,2024-02-11,ClientZ,172,1,172
+Sofa,2024-02-11,ClientX,108,2,216
+Bed,2024-02-11,ClientB,62,4,248
+Chair,2024-02-11,ClientB,191,4,764
+Chair,2024-02-11,ClientA,89,5,445
+Bed,2024-02-11,ClientA,144,2,288
+Dinner table,2024-02-11,ClientB,65,4,260
+Dinner table,2024-02-11,ClientA,175,5,875
+Chair,2024-02-11,ClientX,102,5,510
+Sofa,2024-02-11,ClientX,125,5,625
+Sofa,2024-02-11,ClientZ,194,1,194
+Dinner table,2024-02-11,ClientX,154,2,308
+Sofa,2024-02-11,ClientB,118,4,472
+Dinner table,2024-02-11,ClientX,50,5,250
+Dinner table,2024-02-11,ClientA,54,3,162
+Dinner table,2024-02-11,ClientZ,106,2,212
+Sofa,2024-02-11,ClientY,81,5,405
+Chair,2024-02-11,ClientX,91,2,182
+Bed,2024-02-11,ClientY,160,5,800
+Bed,2024-02-11,ClientZ,150,2,300
+Dinner table,2024-02-11,ClientY,166,1,166
+Chair,2024-02-11,ClientA,183,1,183
+Sofa,2024-02-11,ClientY,58,5,290
+Bed,2024-02-11,ClientX,193,3,579
+Chair,2024-02-11,ClientA,156,1,156
+Bed,2024-02-11,ClientZ,89,4,356
+Chair,2024-02-11,ClientY,68,4,272
+Sofa,2024-02-11,ClientY,191,2,382
+Bed,2024-02-11,ClientZ,134,4,536
+Dinner table,2024-02-11,ClientY,171,4,684
+Sofa,2024-02-11,ClientX,132,5,660
+Bed,2024-02-11,ClientX,96,5,480
+Dinner table,2024-02-11,ClientX,61,2,122
+Sofa,2024-02-11,ClientY,74,2,148
+Bed,2024-02-11,ClientY,58,1,58
+Dinner table,2024-02-11,ClientX,52,5,260
+Sofa,2024-02-11,ClientY,132,3,396
+Dinner table,2024-02-11,ClientB,197,5,985
+Dinner table,2024-02-11,ClientA,135,2,270
+Chair,2024-02-11,ClientX,191,5,955
+Sofa,2024-02-11,ClientB,106,5,530
+Dinner table,2024-02-11,ClientX,74,5,370
+Bed,2024-02-11,ClientA,130,5,650
+Sofa,2024-02-11,ClientY,96,4,384
+Sofa,2024-02-11,ClientA,151,1,151
+Sofa,2024-02-11,ClientB,72,4,288
+Sofa,2024-02-11,ClientB,200,5,1000
+Sofa,2024-02-11,ClientB,136,2,272
+Chair,2024-02-11,ClientA,141,2,282
+Bed,2024-02-11,ClientB,169,3,507
+Chair,2024-02-11,ClientA,167,4,668
+Sofa,2024-02-11,ClientA,88,4,352
+Bed,2024-02-11,ClientY,71,5,355
+Sofa,2024-02-11,ClientZ,64,1,64
+Chair,2024-02-11,ClientX,74,2,148
+Dinner table,2024-02-11,ClientZ,136,1,136
+Sofa,2024-02-11,ClientZ,102,4,408
+Bed,2024-02-11,ClientX,145,3,435
+Dinner table,2024-02-11,ClientB,103,1,103
+Bed,2024-02-11,ClientX,82,5,410
+Dinner table,2024-02-11,ClientY,51,2,102
+Sofa,2024-02-11,ClientZ,132,4,528
+Bed,2024-02-11,ClientA,70,3,210
+Chair,2024-02-11,ClientX,118,5,590
+Bed,2024-02-11,ClientX,57,5,285
+Dinner table,2024-02-11,ClientX,139,2,278
+Sofa,2024-02-11,ClientY,95,4,380
+Chair,2024-02-11,ClientY,111,2,222
+Bed,2024-02-11,ClientB,116,3,348
+Dinner table,2024-02-11,ClientY,146,2,292
+Chair,2024-02-11,ClientX,147,2,294
+Dinner table,2024-02-11,ClientX,179,1,179
+Bed,2024-02-11,ClientB,197,4,788
+Sofa,2024-02-11,ClientB,72,4,288
+Dinner table,2024-02-11,ClientZ,115,5,575
+Chair,2024-02-11,ClientZ,136,5,680
+Sofa,2024-02-11,ClientZ,181,1,181
+Dinner table,2024-02-11,ClientA,200,2,400
+Sofa,2024-02-11,ClientA,161,3,483
+Dinner table,2024-02-11,ClientX,123,4,492
+Bed,2024-02-11,ClientX,60,5,300
+Chair,2024-02-11,ClientX,138,4,552
+Bed,2024-02-11,ClientY,81,5,405
+Sofa,2024-02-11,ClientZ,198,3,594
+Bed,2024-02-11,ClientA,117,4,468
+Bed,2024-02-11,ClientX,62,3,186
+Dinner table,2024-02-11,ClientY,118,1,118
+Chair,2024-02-11,ClientZ,189,5,945
+Bed,2024-02-11,ClientA,172,3,516
+Chair,2024-02-11,ClientA,69,5,345
+Bed,2024-02-11,ClientZ,178,2,356
+Sofa,2024-02-11,ClientB,182,5,910
+Sofa,2024-02-11,ClientY,110,4,440
+Dinner table,2024-02-11,ClientX,76,1,76
+Sofa,2024-02-11,ClientX,99,5,495
+Sofa,2024-02-11,ClientY,168,5,840
+Dinner table,2024-02-11,ClientA,99,2,198
+Dinner table,2024-02-11,ClientB,147,4,588
+Bed,2024-02-11,ClientX,163,5,815
+Bed,2024-02-11,ClientB,104,5,520
+Bed,2024-02-11,ClientY,162,4,648
+Bed,2024-02-11,ClientZ,73,1,73
+Dinner table,2024-02-11,ClientB,89,1,89
+Sofa,2024-02-11,ClientX,172,3,516
+Bed,2024-02-11,ClientY,89,3,267
+Sofa,2024-02-11,ClientB,142,2,284
+Chair,2024-02-11,ClientX,84,5,420
+Dinner table,2024-02-11,ClientY,83,5,415
+Bed,2024-02-11,ClientX,132,1,132
+Bed,2024-02-11,ClientY,118,3,354
+Sofa,2024-02-11,ClientB,78,2,156
+Chair,2024-02-11,ClientB,97,4,388
+Sofa,2024-02-11,ClientX,87,4,348
+Bed,2024-02-11,ClientA,194,1,194
+Bed,2024-02-11,ClientY,176,2,352
+Dinner table,2024-02-11,ClientY,58,5,290
+Bed,2024-02-11,ClientX,78,3,234
+Chair,2024-02-11,ClientB,98,3,294
+Chair,2024-02-11,ClientX,96,1,96
+Dinner table,2024-02-11,ClientZ,127,1,127
+Chair,2024-02-11,ClientA,135,3,405
+Sofa,2024-02-11,ClientY,91,2,182
+Chair,2024-02-11,ClientY,176,1,176
+Chair,2024-02-11,ClientB,167,4,668
+Bed,2024-02-11,ClientZ,158,3,474
+Chair,2024-02-11,ClientY,99,4,396
+Chair,2024-02-11,ClientZ,133,4,532
+Sofa,2024-02-11,ClientZ,155,4,620
+Chair,2024-02-11,ClientA,185,4,740
+Bed,2024-02-11,ClientA,65,3,195
+Dinner table,2024-02-11,ClientA,139,1,139
+Sofa,2024-02-11,ClientA,79,5,395
+Dinner table,2024-02-11,ClientB,171,3,513
+Chair,2024-02-11,ClientX,141,5,705
+Sofa,2024-02-11,ClientX,133,2,266
+Bed,2024-02-11,ClientB,60,1,60
+Dinner table,2024-02-11,ClientX,116,1,116
+Dinner table,2024-02-11,ClientB,97,1,97
+Dinner table,2024-02-11,ClientZ,69,5,345
+Sofa,2024-02-11,ClientB,160,3,480
+Dinner table,2024-02-11,ClientA,67,4,268
+Chair,2024-02-11,ClientX,191,4,764
+Bed,2024-02-11,ClientX,54,5,270
+Dinner table,2024-02-11,ClientA,193,2,386
+Bed,2024-02-11,ClientZ,137,3,411
+Bed,2024-02-11,ClientZ,151,3,453
+Chair,2024-02-11,ClientB,159,3,477
+Chair,2024-02-11,ClientY,79,4,316
+Sofa,2024-02-11,ClientZ,82,5,410
+Chair,2024-02-11,ClientX,79,2,158
+Chair,2024-02-11,ClientY,181,4,724
+Bed,2024-02-11,ClientX,199,5,995
+Sofa,2024-02-11,ClientB,88,1,88
+Bed,2024-02-11,ClientX,135,1,135
+Sofa,2024-02-11,ClientY,57,2,114
+Chair,2024-02-11,ClientB,141,4,564
+Dinner table,2024-02-11,ClientB,197,3,591
+Chair,2024-02-11,ClientA,109,4,436
+Bed,2024-02-11,ClientA,110,2,220
+Chair,2024-02-11,ClientB,84,5,420
+Sofa,2024-02-11,ClientZ,116,5,580
+Bed,2024-02-11,ClientY,152,3,456
+Dinner table,2024-02-11,ClientZ,60,2,120
+Chair,2024-02-11,ClientZ,173,4,692
+Dinner table,2024-02-11,ClientA,191,3,573
+Sofa,2024-02-11,ClientX,129,3,387
+Sofa,2024-02-11,ClientB,169,2,338
+Sofa,2024-02-11,ClientY,193,1,193
+Dinner table,2024-02-11,ClientB,188,5,940
+Dinner table,2024-02-11,ClientY,146,5,730
+Sofa,2024-02-11,ClientA,108,3,324
+Bed,2024-02-11,ClientY,149,2,298
+Chair,2024-02-11,ClientA,59,3,177
+Bed,2024-02-11,ClientZ,158,1,158
+Bed,2024-02-11,ClientX,52,4,208
+Dinner table,2024-02-11,ClientB,58,1,58
+Bed,2024-02-11,ClientA,67,3,201
+Sofa,2024-02-11,ClientA,59,2,118
+Bed,2024-02-11,ClientB,183,2,366
+Chair,2024-02-11,ClientZ,112,5,560
+Sofa,2024-02-11,ClientB,73,5,365
+Dinner table,2024-02-11,ClientA,84,2,168
+Dinner table,2024-02-11,ClientB,164,2,328
+Sofa,2024-02-11,ClientB,142,4,568
+Dinner table,2024-02-11,ClientB,70,1,70
+Bed,2024-02-11,ClientX,109,3,327
+Dinner table,2024-02-11,ClientA,158,3,474
+Sofa,2024-02-11,ClientY,83,2,166
+Chair,2024-02-11,ClientY,120,5,600
+Chair,2024-02-11,ClientX,109,2,218
+Dinner table,2024-02-11,ClientX,148,1,148
+Sofa,2024-02-11,ClientX,116,1,116
+Bed,2024-02-11,ClientZ,159,1,159
+Bed,2024-02-11,ClientZ,122,4,488
+Bed,2024-02-11,ClientZ,194,1,194
+Chair,2024-02-11,ClientX,63,5,315
+Dinner table,2024-02-11,ClientZ,63,2,126
+Chair,2024-02-11,ClientA,200,3,600
+Bed,2024-02-11,ClientX,149,5,745
+Sofa,2024-02-11,ClientY,99,1,99
+Chair,2024-02-11,ClientB,168,3,504
+Dinner table,2024-02-11,ClientB,140,3,420
+Bed,2024-02-11,ClientA,98,4,392
+Dinner table,2024-02-11,ClientZ,184,1,184
+Chair,2024-02-11,ClientA,95,2,190
+Chair,2024-02-11,ClientY,64,3,192
+Dinner table,2024-02-11,ClientA,186,1,186
+Sofa,2024-02-11,ClientX,108,2,216
+Dinner table,2024-02-11,ClientA,197,2,394
+Bed,2024-02-11,ClientX,54,2,108
+Bed,2024-02-11,ClientA,50,2,100
+Chair,2024-02-11,ClientX,112,2,224
+Dinner table,2024-02-11,ClientX,74,3,222
+Bed,2024-02-11,ClientY,143,2,286
+Bed,2024-02-11,ClientA,86,4,344
+Sofa,2024-02-11,ClientA,52,5,260
+Dinner table,2024-02-11,ClientY,72,4,288
+Chair,2024-02-11,ClientZ,165,5,825
+Chair,2024-02-11,ClientA,112,1,112
+Bed,2024-02-11,ClientX,151,1,151
+Chair,2024-02-11,ClientA,161,4,644
+Dinner table,2024-02-11,ClientA,96,3,288
+Chair,2024-02-11,ClientA,83,1,83
+Sofa,2024-02-11,ClientY,142,3,426
+Chair,2024-02-11,ClientA,121,4,484
+Sofa,2024-02-11,ClientB,167,1,167
+Chair,2024-02-11,ClientB,195,4,780
+Chair,2024-02-11,ClientX,78,1,78
+Chair,2024-02-11,ClientB,116,2,232
+Dinner table,2024-02-11,ClientY,61,3,183
+Chair,2024-02-11,ClientB,79,3,237
+Chair,2024-02-11,ClientY,60,2,120
+Sofa,2024-02-11,ClientY,196,1,196
+Chair,2024-02-11,ClientA,108,3,324
+Dinner table,2024-02-11,ClientX,158,4,632
+Bed,2024-02-11,ClientX,147,1,147
+Bed,2024-02-11,ClientZ,188,3,564
+Chair,2024-02-11,ClientB,156,2,312
+Dinner table,2024-02-11,ClientY,78,5,390
+Dinner table,2024-02-11,ClientX,134,2,268
+Chair,2024-02-11,ClientY,61,5,305
+Dinner table,2024-02-11,ClientZ,113,4,452
+Sofa,2024-02-11,ClientB,125,3,375
+Bed,2024-02-11,ClientA,129,2,258
+Bed,2024-02-11,ClientB,70,3,210
+Dinner table,2024-02-11,ClientZ,133,4,532
+Dinner table,2024-02-11,ClientA,123,4,492
+Sofa,2024-02-11,ClientZ,167,4,668
+Bed,2024-02-11,ClientY,143,2,286
+Sofa,2024-02-11,ClientA,97,2,194
+Bed,2024-02-11,ClientY,62,3,186
+Sofa,2024-02-11,ClientA,104,1,104
+Dinner table,2024-02-11,ClientZ,191,5,955
+Bed,2024-02-11,ClientB,80,4,320
+Bed,2024-02-11,ClientZ,196,4,784
+Sofa,2024-02-11,ClientZ,196,2,392
+Bed,2024-02-11,ClientA,74,3,222
+Bed,2024-02-11,ClientB,90,2,180
+Chair,2024-02-11,ClientZ,175,1,175
+Chair,2024-02-11,ClientB,57,4,228
+Bed,2024-02-11,ClientB,84,2,168
+Bed,2024-02-11,ClientX,138,5,690
+Sofa,2024-02-11,ClientY,61,3,183
+Bed,2024-02-11,ClientY,180,1,180
+Bed,2024-02-11,ClientX,142,5,710
+Dinner table,2024-02-11,ClientY,157,4,628
+Sofa,2024-02-11,ClientX,102,2,204
+Dinner table,2024-02-11,ClientZ,189,5,945
+Chair,2024-02-11,ClientA,109,1,109
+Dinner table,2024-02-11,ClientA,164,5,820
+Dinner table,2024-02-11,ClientB,175,4,700
+Sofa,2024-02-11,ClientA,168,1,168
+Chair,2024-02-11,ClientY,164,4,656
+Sofa,2024-02-11,ClientB,58,3,174
+Dinner table,2024-02-11,ClientA,62,5,310
+Bed,2024-02-11,ClientY,106,3,318
+Chair,2024-02-11,ClientA,90,4,360
+Dinner table,2024-02-11,ClientY,193,3,579
+Chair,2024-02-11,ClientY,88,1,88
+Dinner table,2024-02-11,ClientA,140,5,700
+Bed,2024-02-11,ClientA,112,3,336
+Sofa,2024-02-11,ClientZ,175,3,525
+Dinner table,2024-02-11,ClientA,68,5,340
+Dinner table,2024-02-11,ClientA,78,2,156
+Sofa,2024-02-11,ClientZ,134,3,402
+Dinner table,2024-02-11,ClientY,167,5,835
+Dinner table,2024-02-11,ClientA,67,2,134
+Bed,2024-02-11,ClientX,74,3,222
+Bed,2024-02-11,ClientB,81,2,162
+Chair,2024-02-11,ClientY,102,1,102
+Bed,2024-02-11,ClientY,122,1,122
+Bed,2024-02-11,ClientX,151,3,453
+Chair,2024-02-11,ClientZ,156,3,468
+Chair,2024-02-11,ClientA,143,2,286
+Sofa,2024-02-11,ClientB,159,5,795
+Chair,2024-02-11,ClientA,166,3,498
+Chair,2024-02-11,ClientA,188,5,940
+Bed,2024-02-11,ClientX,145,3,435
+Chair,2024-02-11,ClientZ,110,3,330
+Bed,2024-02-11,ClientX,154,2,308
+Sofa,2024-02-11,ClientY,200,5,1000
+Dinner table,2024-02-11,ClientB,84,5,420
+Bed,2024-02-11,ClientZ,73,5,365
+Bed,2024-02-11,ClientZ,157,2,314
+Bed,2024-02-11,ClientX,182,4,728
+Bed,2024-02-11,ClientX,169,5,845
+Dinner table,2024-02-11,ClientB,160,2,320
+Dinner table,2024-02-11,ClientB,132,4,528
+Chair,2024-02-11,ClientB,171,1,171
+Bed,2024-02-11,ClientB,159,2,318
+Sofa,2024-02-11,ClientZ,138,4,552
+Sofa,2024-02-11,ClientY,134,2,268
+Chair,2024-02-11,ClientA,129,1,129
+Dinner table,2024-02-11,ClientX,75,4,300
+Sofa,2024-02-11,ClientB,134,2,268
+Dinner table,2024-02-11,ClientY,146,2,292
+Dinner table,2024-02-11,ClientZ,58,3,174
+Sofa,2024-02-11,ClientZ,99,3,297
+Sofa,2024-02-11,ClientZ,184,5,920
+Dinner table,2024-02-11,ClientZ,86,3,258
+Dinner table,2024-02-11,ClientY,51,3,153
+Dinner table,2024-02-11,ClientB,105,5,525
+Bed,2024-02-11,ClientA,156,2,312
+Dinner table,2024-02-11,ClientX,109,4,436
+Chair,2024-02-11,ClientZ,155,2,310
+Sofa,2024-02-11,ClientX,181,2,362
+Chair,2024-02-11,ClientA,82,2,164
+Chair,2024-02-11,ClientY,182,5,910
+Sofa,2024-02-11,ClientB,177,1,177
+Dinner table,2024-02-11,ClientZ,130,2,260
+Bed,2024-02-11,ClientB,128,3,384
+Chair,2024-02-11,ClientB,83,2,166
+Sofa,2024-02-11,ClientZ,101,2,202
+Chair,2024-02-11,ClientB,159,5,795
+Chair,2024-02-11,ClientB,178,5,890
+Chair,2024-02-11,ClientB,57,5,285
+Chair,2024-02-11,ClientB,173,2,346
+Chair,2024-02-11,ClientB,127,5,635
+Dinner table,2024-02-11,ClientY,63,2,126
+Chair,2024-02-11,ClientZ,193,5,965
+Bed,2024-02-11,ClientX,61,3,183
+Bed,2024-02-11,ClientY,167,3,501
+Chair,2024-02-11,ClientZ,85,3,255
+Bed,2024-02-11,ClientX,112,3,336
+Sofa,2024-02-11,ClientA,68,4,272
+Chair,2024-02-11,ClientY,135,1,135
+Sofa,2024-02-11,ClientZ,90,2,180
+Sofa,2024-02-11,ClientZ,153,5,765
+Sofa,2024-02-11,ClientX,76,5,380
+Dinner table,2024-02-11,ClientZ,71,4,284
+Dinner table,2024-02-11,ClientY,167,3,501
+Dinner table,2024-02-11,ClientY,187,1,187
+Sofa,2024-02-11,ClientB,182,5,910
+Dinner table,2024-02-11,ClientB,124,1,124
+Sofa,2024-02-11,ClientB,150,2,300
+Dinner table,2024-02-11,ClientX,127,5,635
+Dinner table,2024-02-11,ClientZ,176,1,176
+Bed,2024-02-11,ClientY,176,4,704
+Chair,2024-02-11,ClientB,169,1,169
+Sofa,2024-02-11,ClientX,78,3,234
+Chair,2024-02-11,ClientY,74,1,74
+Dinner table,2024-02-11,ClientX,108,5,540
+Bed,2024-02-11,ClientZ,81,5,405
+Chair,2024-02-11,ClientZ,168,3,504
+Sofa,2024-02-11,ClientY,157,3,471
+Sofa,2024-02-11,ClientZ,163,5,815
+Dinner table,2024-02-11,ClientA,62,5,310
+Sofa,2024-02-11,ClientB,76,1,76
+Dinner table,2024-02-11,ClientB,135,1,135
+Dinner table,2024-02-11,ClientB,171,4,684
+Chair,2024-02-11,ClientB,93,2,186
+Chair,2024-02-11,ClientZ,97,4,388
+Dinner table,2024-02-11,ClientX,200,1,200
+Bed,2024-02-11,ClientY,186,2,372
+Sofa,2024-02-11,ClientX,168,1,168
+Dinner table,2024-02-11,ClientY,85,3,255
+Dinner table,2024-02-11,ClientB,161,3,483
+Dinner table,2024-02-11,ClientA,77,2,154
+Bed,2024-02-11,ClientX,137,5,685
+Sofa,2024-02-11,ClientB,97,5,485
+Dinner table,2024-02-11,ClientZ,137,1,137
+Chair,2024-02-11,ClientY,94,2,188
+Sofa,2024-02-11,ClientZ,59,2,118
+Chair,2024-02-11,ClientB,84,1,84
+Sofa,2024-02-11,ClientX,188,1,188
+Bed,2024-02-11,ClientB,184,3,552
+Sofa,2024-02-11,ClientB,150,2,300
+Sofa,2024-02-11,ClientY,196,1,196
+Sofa,2024-02-11,ClientY,159,4,636
+Chair,2024-02-11,ClientA,146,4,584
+Chair,2024-02-11,ClientX,188,5,940
+Chair,2024-02-11,ClientB,53,1,53
+Dinner table,2024-02-11,ClientA,195,5,975
+Sofa,2024-02-11,ClientY,124,1,124
+Sofa,2024-02-11,ClientY,52,2,104
+Sofa,2024-02-11,ClientX,88,3,264
+Bed,2024-02-11,ClientX,86,1,86
+Bed,2024-02-11,ClientY,137,3,411
+Dinner table,2024-02-11,ClientB,168,5,840
+Chair,2024-02-11,ClientB,149,5,745
+Dinner table,2024-02-11,ClientB,200,2,400
+Chair,2024-02-11,ClientA,171,5,855
+Sofa,2024-02-11,ClientA,184,1,184
+Sofa,2024-02-11,ClientB,111,4,444
+Chair,2024-02-11,ClientZ,136,3,408
+Sofa,2024-02-11,ClientX,53,3,159
+Dinner table,2024-02-11,ClientZ,162,2,324
+Bed,2024-02-11,ClientX,188,5,940
+Sofa,2024-02-11,ClientZ,198,2,396
+Dinner table,2024-02-11,ClientY,199,3,597
+Sofa,2024-02-11,ClientA,81,3,243
+Bed,2024-02-11,ClientY,189,1,189
+Chair,2024-02-11,ClientZ,186,4,744
+Chair,2024-02-11,ClientA,68,5,340
+Chair,2024-02-11,ClientX,128,2,256
+Dinner table,2024-02-11,ClientX,147,2,294
+Sofa,2024-02-11,ClientA,58,1,58
+Chair,2024-02-11,ClientA,171,5,855
+Chair,2024-02-11,ClientA,149,1,149
+Dinner table,2024-02-11,ClientY,134,3,402
+Bed,2024-02-11,ClientA,57,2,114
+Sofa,2024-02-11,ClientZ,121,2,242
+Sofa,2024-02-11,ClientX,128,5,640
+Chair,2024-02-11,ClientB,87,4,348
+Chair,2024-02-11,ClientA,129,5,645
+Sofa,2024-02-11,ClientB,167,3,501
+Sofa,2024-02-11,ClientB,68,5,340
+Chair,2024-02-11,ClientX,184,1,184
+Sofa,2024-02-11,ClientA,133,4,532
+Dinner table,2024-02-11,ClientA,84,3,252
+Dinner table,2024-02-11,ClientZ,131,5,655
+Dinner table,2024-02-11,ClientB,131,1,131
+Dinner table,2024-02-11,ClientA,174,3,522
+Bed,2024-02-11,ClientZ,93,1,93
+Sofa,2024-02-11,ClientX,124,3,372
+Dinner table,2024-02-11,ClientX,67,5,335
+Dinner table,2024-02-11,ClientY,107,3,321
+Sofa,2024-02-11,ClientB,181,4,724
+Bed,2024-02-11,ClientB,58,3,174
+Dinner table,2024-02-11,ClientX,171,1,171
+Sofa,2024-02-11,ClientB,151,5,755
+Sofa,2024-02-11,ClientA,50,3,150
+Chair,2024-02-11,ClientA,197,3,591
+Dinner table,2024-02-11,ClientX,104,1,104
+Sofa,2024-02-11,ClientA,188,4,752
+Chair,2024-02-11,ClientZ,122,1,122
+Chair,2024-02-11,ClientX,169,5,845
+Dinner table,2024-02-11,ClientX,192,4,768
+Bed,2024-02-11,ClientZ,133,3,399
+Bed,2024-02-11,ClientZ,167,4,668
+Chair,2024-02-11,ClientZ,111,3,333
+Chair,2024-02-11,ClientB,188,3,564
+Dinner table,2024-02-11,ClientB,197,1,197
+Chair,2024-02-11,ClientZ,199,3,597
+Bed,2024-02-11,ClientZ,128,2,256
+Dinner table,2024-02-11,ClientZ,104,2,208
+Bed,2024-02-11,ClientY,130,1,130
+Bed,2024-02-11,ClientX,101,2,202
+Dinner table,2024-02-11,ClientA,72,5,360
+Sofa,2024-02-11,ClientZ,186,3,558
+Sofa,2024-02-11,ClientX,65,4,260
+Dinner table,2024-02-11,ClientX,194,3,582
+Sofa,2024-02-11,ClientX,122,4,488
+Bed,2024-02-11,ClientZ,121,5,605
+Chair,2024-02-11,ClientX,70,1,70
+Dinner table,2024-02-11,ClientX,109,5,545
+Sofa,2024-02-11,ClientZ,133,1,133
+Sofa,2024-02-11,ClientY,118,4,472
+Sofa,2024-02-11,ClientA,113,1,113
+Dinner table,2024-02-11,ClientZ,54,1,54
+Chair,2024-02-11,ClientX,192,5,960
+Chair,2024-02-11,ClientB,75,2,150
+Chair,2024-02-11,ClientX,63,4,252
+Dinner table,2024-02-11,ClientB,116,1,116
+Sofa,2024-02-11,ClientB,98,5,490
+Dinner table,2024-02-11,ClientX,89,2,178
+Bed,2024-02-11,ClientY,50,4,200
+Sofa,2024-02-11,ClientY,86,1,86
+Bed,2024-02-11,ClientY,186,5,930
+Bed,2024-02-11,ClientB,169,1,169
+Chair,2024-02-11,ClientA,135,1,135
+Bed,2024-02-11,ClientA,67,5,335
+Sofa,2024-02-11,ClientA,155,1,155
+Bed,2024-02-11,ClientZ,102,5,510
+Bed,2024-02-11,ClientZ,81,3,243
+Dinner table,2024-02-11,ClientZ,151,2,302
+Sofa,2024-02-11,ClientY,145,3,435
+Sofa,2024-02-11,ClientZ,195,2,390
+Dinner table,2024-02-11,ClientA,108,2,216
+Bed,2024-02-11,ClientB,88,1,88
+Chair,2024-02-11,ClientB,101,1,101
+Chair,2024-02-11,ClientY,140,3,420
+Dinner table,2024-02-11,ClientZ,185,3,555
+Sofa,2024-02-11,ClientY,181,5,905
+Dinner table,2024-02-11,ClientY,138,3,414
+Dinner table,2024-02-11,ClientY,120,4,480
+Dinner table,2024-02-11,ClientX,75,3,225
+Chair,2024-02-11,ClientB,178,2,356
+Bed,2024-02-11,ClientB,87,3,261
+Sofa,2024-02-11,ClientZ,94,5,470
+Chair,2024-02-11,ClientX,132,2,264
+Sofa,2024-02-11,ClientZ,186,5,930
+Dinner table,2024-02-11,ClientB,148,5,740
+Bed,2024-02-11,ClientA,78,5,390
+Bed,2024-02-11,ClientZ,171,2,342
+Chair,2024-02-11,ClientB,126,3,378
+Dinner table,2024-02-11,ClientZ,64,4,256
+Sofa,2024-02-11,ClientY,182,1,182
+Dinner table,2024-02-11,ClientB,177,4,708
+Dinner table,2024-02-11,ClientA,69,2,138
+Sofa,2024-02-11,ClientY,51,3,153
+Sofa,2024-02-11,ClientZ,99,5,495
+Sofa,2024-02-11,ClientB,83,5,415
+Chair,2024-02-11,ClientZ,180,4,720
+Sofa,2024-02-11,ClientY,181,2,362
+Sofa,2024-02-11,ClientA,188,4,752
+Bed,2024-02-11,ClientY,88,5,440
+Sofa,2024-02-11,ClientB,186,2,372
+Bed,2024-02-11,ClientY,86,3,258
+Sofa,2024-02-11,ClientB,74,5,370
+Chair,2024-02-11,ClientA,158,2,316
+Bed,2024-02-11,ClientX,124,3,372
+Bed,2024-02-11,ClientX,79,4,316
+Sofa,2024-02-11,ClientB,95,3,285
+Bed,2024-02-11,ClientB,62,4,248
+Bed,2024-02-11,ClientY,116,3,348
+Sofa,2024-02-11,ClientB,166,5,830
+Chair,2024-02-11,ClientX,78,1,78
+Dinner table,2024-02-11,ClientZ,63,1,63
+Bed,2024-02-11,ClientY,93,4,372
+Dinner table,2024-02-11,ClientA,73,5,365
+Chair,2024-02-11,ClientX,107,3,321
+Bed,2024-02-11,ClientB,98,4,392
+Bed,2024-02-11,ClientZ,161,5,805
+Sofa,2024-02-11,ClientZ,56,1,56
+Sofa,2024-02-11,ClientY,194,5,970
+Dinner table,2024-02-11,ClientY,159,3,477
+Chair,2024-02-11,ClientB,90,5,450
+Bed,2024-02-11,ClientZ,135,1,135
+Dinner table,2024-02-11,ClientY,101,1,101
+Bed,2024-02-11,ClientB,143,4,572
+Chair,2024-02-11,ClientY,185,1,185
+Bed,2024-02-11,ClientX,60,5,300
+Sofa,2024-02-11,ClientA,53,2,106
+Sofa,2024-02-11,ClientX,194,2,388
+Dinner table,2024-02-11,ClientZ,180,2,360
+Dinner table,2024-02-11,ClientB,81,4,324
+Bed,2024-02-11,ClientX,57,2,114
+Bed,2024-02-11,ClientY,107,3,321
+Dinner table,2024-02-11,ClientY,157,1,157
+Sofa,2024-02-11,ClientX,109,4,436
+Sofa,2024-02-11,ClientA,152,1,152
+Sofa,2024-02-11,ClientX,118,1,118
+Sofa,2024-02-11,ClientB,89,5,445
+Dinner table,2024-02-11,ClientZ,120,2,240
+Sofa,2024-02-11,ClientB,108,4,432
+Chair,2024-02-11,ClientA,160,2,320
+Bed,2024-02-11,ClientB,152,5,760
+Bed,2024-02-11,ClientA,101,4,404
+Chair,2024-02-11,ClientY,81,2,162
+Bed,2024-02-11,ClientB,186,5,930
+Bed,2024-02-11,ClientZ,98,5,490
+Sofa,2024-02-11,ClientY,195,1,195
+Chair,2024-02-11,ClientY,74,4,296
+Bed,2024-02-11,ClientB,174,5,870
+Dinner table,2024-02-11,ClientY,132,5,660
+Dinner table,2024-02-11,ClientB,72,3,216
+Bed,2024-02-11,ClientB,128,5,640
+Sofa,2024-02-11,ClientY,95,4,380
+Bed,2024-02-11,ClientY,78,5,390
+Bed,2024-02-11,ClientA,126,3,378
+Bed,2024-02-11,ClientY,137,1,137
+Chair,2024-02-11,ClientY,73,2,146
+Chair,2024-02-11,ClientB,111,2,222
+Dinner table,2024-02-11,ClientB,198,3,594
+Sofa,2024-02-11,ClientB,172,3,516
+Dinner table,2024-02-11,ClientY,57,1,57
+Dinner table,2024-02-11,ClientZ,86,3,258
+Dinner table,2024-02-11,ClientZ,177,5,885
+Dinner table,2024-02-11,ClientX,194,3,582
+Sofa,2024-02-11,ClientY,116,1,116
+Bed,2024-02-11,ClientZ,95,2,190
+Sofa,2024-02-11,ClientB,99,5,495
+Dinner table,2024-02-11,ClientZ,96,3,288
+Sofa,2024-02-11,ClientA,190,3,570
+Bed,2024-02-11,ClientX,144,5,720
+Chair,2024-02-11,ClientX,115,5,575
+Dinner table,2024-02-11,ClientA,113,1,113
+Bed,2024-02-11,ClientB,146,3,438
+Bed,2024-02-11,ClientB,65,3,195
+Bed,2024-02-11,ClientB,56,4,224
+Dinner table,2024-02-11,ClientY,52,2,104
+Bed,2024-02-11,ClientX,149,1,149
+Sofa,2024-02-11,ClientZ,100,2,200
+Chair,2024-02-11,ClientY,172,3,516
+Chair,2024-02-11,ClientZ,75,4,300
+Chair,2024-02-11,ClientA,132,5,660
+Dinner table,2024-02-11,ClientB,81,2,162
+Dinner table,2024-02-11,ClientX,119,1,119
+Bed,2024-02-11,ClientZ,160,3,480
+Dinner table,2024-02-11,ClientX,92,5,460
+Sofa,2024-02-11,ClientA,199,2,398
+Bed,2024-02-11,ClientA,169,5,845
+Bed,2024-02-11,ClientB,122,3,366
+Sofa,2024-02-11,ClientA,72,2,144
+Bed,2024-02-11,ClientZ,80,2,160
+Dinner table,2024-02-11,ClientY,53,3,159
+Dinner table,2024-02-11,ClientZ,171,2,342
+Sofa,2024-02-11,ClientZ,105,4,420
+Sofa,2024-02-11,ClientX,71,5,355
+Bed,2024-02-11,ClientX,163,5,815
+Dinner table,2024-02-11,ClientB,54,2,108
+Bed,2024-02-11,ClientB,154,1,154
+Dinner table,2024-02-11,ClientB,105,3,315
+Dinner table,2024-02-11,ClientZ,94,3,282
+Chair,2024-02-11,ClientX,195,4,780
+Chair,2024-02-11,ClientB,68,5,340
+Sofa,2024-02-11,ClientX,110,4,440
+Chair,2024-02-11,ClientY,77,4,308
+Bed,2024-02-11,ClientY,127,2,254
+Chair,2024-02-11,ClientB,103,1,103
+Dinner table,2024-02-11,ClientA,194,1,194
+Chair,2024-02-11,ClientZ,194,5,970
+Dinner table,2024-02-11,ClientX,171,5,855
+Dinner table,2024-02-11,ClientZ,120,3,360
+Bed,2024-02-11,ClientZ,103,2,206
+Dinner table,2024-02-11,ClientZ,80,2,160
+Sofa,2024-02-11,ClientX,124,1,124
+Bed,2024-02-11,ClientX,61,1,61
+Sofa,2024-02-11,ClientZ,96,5,480
+Bed,2024-02-11,ClientZ,136,5,680
+Sofa,2024-02-11,ClientY,85,1,85
+Chair,2024-02-11,ClientB,105,4,420
+Dinner table,2024-02-11,ClientA,193,4,772
+Chair,2024-02-11,ClientX,151,4,604
+Chair,2024-02-11,ClientX,86,3,258
+Chair,2024-02-11,ClientA,200,2,400
+Sofa,2024-02-11,ClientX,112,5,560
+Dinner table,2024-02-11,ClientX,127,1,127
+Bed,2024-02-11,ClientB,82,2,164
+Chair,2024-02-11,ClientB,101,2,202
+Sofa,2024-02-11,ClientZ,56,5,280
+Sofa,2024-02-11,ClientX,102,2,204
+Dinner table,2024-02-11,ClientB,199,5,995
+Bed,2024-02-11,ClientX,52,2,104
+Bed,2024-02-11,ClientX,59,2,118
+Sofa,2024-02-11,ClientZ,100,4,400
+Bed,2024-02-11,ClientX,176,1,176
+Dinner table,2024-02-11,ClientA,67,4,268
+Dinner table,2024-02-11,ClientB,155,3,465
+Bed,2024-02-11,ClientX,77,5,385
+Chair,2024-02-11,ClientB,187,3,561
+Bed,2024-02-11,ClientY,172,1,172
+Sofa,2024-02-11,ClientB,112,2,224
+Dinner table,2024-02-11,ClientY,122,4,488
+Chair,2024-02-11,ClientZ,128,1,128
+Dinner table,2024-02-11,ClientA,125,3,375
+Sofa,2024-02-11,ClientX,86,4,344
+Dinner table,2024-02-11,ClientZ,141,3,423
+Dinner table,2024-02-11,ClientZ,132,3,396
+Dinner table,2024-02-11,ClientX,141,2,282
+Dinner table,2024-02-11,ClientX,146,1,146
+Chair,2024-02-11,ClientZ,180,1,180
+Dinner table,2024-02-11,ClientB,158,3,474
+Chair,2024-02-11,ClientY,79,1,79
+Dinner table,2024-02-11,ClientY,122,2,244
+Chair,2024-02-11,ClientX,174,3,522
+Chair,2024-02-11,ClientB,199,4,796
+Dinner table,2024-02-11,ClientZ,136,5,680
+Dinner table,2024-02-11,ClientZ,154,5,770
+Sofa,2024-02-11,ClientY,140,2,280
+Dinner table,2024-02-11,ClientB,109,2,218
+Dinner table,2024-02-11,ClientA,159,2,318
+Chair,2024-02-11,ClientX,118,4,472
+Bed,2024-02-11,ClientX,82,1,82
+Chair,2024-02-11,ClientX,171,2,342
+Dinner table,2024-02-11,ClientA,79,2,158
+Chair,2024-02-11,ClientA,98,5,490
+Sofa,2024-02-11,ClientA,66,4,264
+Dinner table,2024-02-11,ClientA,117,3,351
+Sofa,2024-02-11,ClientA,158,1,158
+Bed,2024-02-11,ClientY,64,2,128
+Bed,2024-02-11,ClientY,65,3,195
+Chair,2024-02-11,ClientA,179,2,358
+Dinner table,2024-02-11,ClientA,63,4,252
+Sofa,2024-02-11,ClientB,132,2,264
+Bed,2024-02-11,ClientA,165,5,825
+Sofa,2024-02-11,ClientB,164,5,820
+Sofa,2024-02-11,ClientB,94,3,282
+Bed,2024-02-11,ClientX,200,2,400
+Dinner table,2024-02-11,ClientB,66,2,132
+Sofa,2024-02-11,ClientZ,81,3,243
+Sofa,2024-02-11,ClientX,71,2,142
+Dinner table,2024-02-11,ClientB,172,2,344
+Chair,2024-02-11,ClientY,122,4,488
+Bed,2024-02-11,ClientB,58,4,232
+Chair,2024-02-11,ClientB,152,2,304
+Chair,2024-02-11,ClientX,76,3,228
+Chair,2024-02-11,ClientZ,145,4,580
+Bed,2024-02-11,ClientX,184,2,368
+Chair,2024-02-11,ClientX,187,2,374
+Dinner table,2024-02-11,ClientA,54,3,162
+Dinner table,2024-02-11,ClientZ,186,3,558
+Dinner table,2024-02-11,ClientA,181,5,905
+Dinner table,2024-02-11,ClientZ,93,5,465
+Bed,2024-02-11,ClientX,142,5,710
+Dinner table,2024-02-11,ClientB,137,5,685
+Chair,2024-02-11,ClientB,64,2,128
+Chair,2024-02-11,ClientZ,185,3,555
+Sofa,2024-02-11,ClientY,114,3,342
+Chair,2024-02-11,ClientY,144,1,144
+Bed,2024-02-11,ClientZ,148,1,148
+Sofa,2024-02-11,ClientY,81,3,243
+Sofa,2024-02-11,ClientZ,164,1,164
+Dinner table,2024-02-11,ClientZ,140,1,140
+Chair,2024-02-11,ClientY,151,3,453
+Bed,2024-02-11,ClientX,151,3,453
+Sofa,2024-02-11,ClientY,179,5,895
+Chair,2024-02-11,ClientB,110,2,220
+Sofa,2024-02-11,ClientZ,124,1,124
+Sofa,2024-02-11,ClientB,144,5,720
+Bed,2024-02-11,ClientX,143,5,715
+Sofa,2024-02-11,ClientY,188,5,940
+Bed,2024-02-11,ClientY,163,2,326
+Chair,2024-02-11,ClientY,105,5,525
+Chair,2024-02-11,ClientA,67,1,67
+Bed,2024-02-11,ClientA,92,3,276
+Dinner table,2024-02-11,ClientY,186,1,186
+Dinner table,2024-02-11,ClientY,177,3,531
+Dinner table,2024-02-11,ClientY,162,4,648
+Sofa,2024-02-11,ClientY,167,1,167
+Chair,2024-02-11,ClientB,90,3,270
+Dinner table,2024-02-11,ClientY,63,5,315
+Bed,2024-02-11,ClientX,153,2,306
+Bed,2024-02-11,ClientB,163,1,163
+Dinner table,2024-02-11,ClientX,157,5,785
+Chair,2024-02-11,ClientZ,94,3,282
+Dinner table,2024-02-11,ClientZ,74,1,74
+Sofa,2024-02-11,ClientZ,171,2,342
+Sofa,2024-02-11,ClientY,161,2,322
+Bed,2024-02-11,ClientA,102,2,204
+Sofa,2024-02-11,ClientZ,115,1,115
+Sofa,2024-02-11,ClientA,153,5,765
+Sofa,2024-02-11,ClientZ,131,2,262
+Sofa,2024-02-11,ClientY,188,5,940
+Bed,2024-02-11,ClientA,183,2,366
+Chair,2024-02-11,ClientA,172,1,172
+Bed,2024-02-11,ClientB,136,1,136
+Bed,2024-02-11,ClientX,79,1,79
+Chair,2024-02-11,ClientX,152,4,608
+Sofa,2024-02-11,ClientA,124,3,372
+Bed,2024-02-11,ClientZ,158,2,316
+Sofa,2024-02-11,ClientA,85,3,255
+Chair,2024-02-11,ClientX,129,1,129
+Dinner table,2024-02-11,ClientY,72,5,360
+Bed,2024-02-11,ClientZ,196,3,588
+Chair,2024-02-11,ClientB,150,1,150
+Sofa,2024-02-11,ClientY,151,4,604
+Dinner table,2024-02-11,ClientY,134,4,536
+Bed,2024-02-11,ClientY,81,2,162
+Chair,2024-02-11,ClientY,69,2,138
+Chair,2024-02-11,ClientZ,123,4,492
+Chair,2024-02-11,ClientX,98,3,294
+Sofa,2024-02-11,ClientB,137,4,548
+Sofa,2024-02-11,ClientZ,96,2,192
+Chair,2024-02-11,ClientZ,70,2,140
+Bed,2024-02-11,ClientA,106,2,212
+Sofa,2024-02-11,ClientZ,171,4,684
+Chair,2024-02-11,ClientX,76,1,76
+Chair,2024-02-11,ClientB,57,4,228
+Bed,2024-02-11,ClientZ,196,5,980
+Chair,2024-02-11,ClientZ,137,1,137
+Dinner table,2024-02-11,ClientA,128,4,512
+Chair,2024-02-11,ClientX,104,4,416
+Bed,2024-02-11,ClientX,170,5,850
+Bed,2024-02-11,ClientZ,179,4,716
+Bed,2024-02-11,ClientA,168,5,840
+Chair,2024-02-11,ClientZ,92,3,276
+Dinner table,2024-02-11,ClientA,149,1,149
+Chair,2024-02-11,ClientA,156,4,624
+Chair,2024-02-11,ClientZ,77,3,231
+Dinner table,2024-02-11,ClientB,156,5,780
+Chair,2024-02-11,ClientA,56,3,168
+Chair,2024-02-11,ClientA,125,3,375
+Bed,2024-02-11,ClientY,78,1,78
+Sofa,2024-02-11,ClientA,113,3,339
+Chair,2024-02-11,ClientB,96,4,384
+Chair,2024-02-11,ClientB,132,5,660
+Chair,2024-02-11,ClientB,160,4,640
+Sofa,2024-02-11,ClientB,100,4,400
+Dinner table,2024-02-11,ClientX,73,2,146
+Bed,2024-02-11,ClientB,164,1,164
+Sofa,2024-02-11,ClientY,122,1,122
+Sofa,2024-02-11,ClientX,88,2,176
+Chair,2024-02-11,ClientZ,198,3,594
+Dinner table,2024-02-11,ClientB,56,2,112
+Dinner table,2024-02-11,ClientZ,70,3,210
+Dinner table,2024-02-11,ClientY,142,2,284

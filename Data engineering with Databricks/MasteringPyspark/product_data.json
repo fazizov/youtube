@@ -1,0 +1,34 @@
+[
+    {
+        "product_name": "Dinner table",
+        "color": "White",
+        "category": {
+            "room_type": "Living room",
+            "furniture_type": "Tables"
+        }
+    },
+    {
+        "product_name": "Chair",
+        "color": "Brown",
+        "category": {
+            "room_type": "Office",
+            "furniture_type": "Chairs"
+        }
+    },
+    {
+        "product_name": "Sofa",
+        "color": "Green",
+        "category": {
+            "room_type": "Living room",
+            "furniture_type": "Sofas"
+        }
+    },
+    {
+        "product_name": "Bed",
+        "color": "Black",
+        "category": {
+            "room_type": "Bedroom",
+            "furniture_type": "Beds"
+        }
+    }
+]
